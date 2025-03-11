@@ -39,7 +39,7 @@ step = 0.0555556
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("CharacterSprite:texture")
+tracks/0/path = NodePath("PlayerSprite:texture")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -56,7 +56,7 @@ step = 0.0833333
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("CharacterSprite:texture")
+tracks/0/path = NodePath("PlayerSprite:texture")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -71,7 +71,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("CharacterSprite:texture")
+tracks/0/path = NodePath("PlayerSprite:texture")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -91,7 +91,7 @@ _data = {
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_3y67r")
 
-[node name="CharacterSprite" type="Sprite3D" parent="."]
+[node name="PlayerSprite" type="Sprite3D" parent="."]
 texture = ExtResource("1_no7dv")
 
 [node name="PlayerAnimation" type="AnimationPlayer" parent="."]
